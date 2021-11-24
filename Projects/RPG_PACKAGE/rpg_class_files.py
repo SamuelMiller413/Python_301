@@ -59,14 +59,7 @@ class Hero:
                     self.berries -= amount
                     print(f"+2 HP.       HP={self.hp}/{self.max_hp}")
         else:
-            print(f"You have full health!       HP={self.hp}/{self.max_hp}")
-    # Eat to increase health
-        # def feed(self):
-        #     if self.hp < self.max_hp:
-        #         self.hp += 1
-        #         print(f"{self.name} has now {self.hp} HP.")
-        #     else:
-        #         print(f"{self.name} is full")
+            print(f"You have full health!       HP={self.hp}/{self.max_hp}")\
 
     def lose_hp(self, amount=2):
         self.hp -= amount
